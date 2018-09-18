@@ -30,14 +30,14 @@ It says that each page only returns 20 results...we'll need to add one more thin
 
 Right click on the results page, select ‘save as,’ name it ‘fordlaborunion.json,’ and save it to the Desktop/chronam folder.
 
-So, we now have everything in one json file, but we can’t really analyze it very well. We’ll want to split it out into individual files based on each page. We can do that if we [download this fairly short Python script](https://gist.githubusercontent.com/brandontlocke/f4cf37c38ad000bcd86cdf5769f31466/raw/fd0a7a99ca03697710edb3dbd82999d78dbfc2df/neh-chronam.py) (right click on an empty part of the page, click save as, and put it in your Desktop/chronam folder (it needs to be in the same folder as your json file) and make sure it’s called ‘neh-chronam.py'.
+So, we now have everything in one json file, but we can’t really analyze it very well. We’ll want to split it out into individual files based on each page. We can do that if we [download this fairly short Python script](https://raw.githubusercontent.com/brandontlocke/chronam-api-lesson/master/chronamtext.py) (right click on an empty part of the page, click save as, and put it in your Desktop/chronam folder (it needs to be in the same folder as your json file) and make sure it’s called ‘chronamtext.py'.
 
-**On Windows**: Double-click on the ‘neh-chronam.py’ icon in the Desktop/chronam folder.
+**On Windows**: Double-click on the ‘chronamtext.py’ icon in the Desktop/chronam folder.
 
 **On Macs**:
 Open Terminal
 `$ cd Desktop/chronam`
-`$ python neh-chronam.py`
+`$ python chronamtext.py`
 
 Now, using Windows Explorer/Finder, open up the Desktop/chronam folder and see what’s there.
 
