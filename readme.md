@@ -28,9 +28,9 @@ It says that each page only returns 20 results...we'll need to add one more thin
 
 [https://chroniclingamerica.loc.gov/search/pages/results/?state=Michigan&lccn=2013218776&dateFilterType=yearRange&date1=1919&date2=1927&language=&ortext=&andtext=labor+union&phrasetext=&proxtext=&proxdistance=5&rows=20&searchType=advanced&format=json&rows=149](https://chroniclingamerica.loc.gov/search/pages/results/?state=Michigan&lccn=2013218776&dateFilterType=yearRange&date1=1919&date2=1927&language=&ortext=&andtext=labor+union&phrasetext=&proxtext=&proxdistance=5&rows=20&searchType=advanced&format=json&rows=149)
 
-Right click on the results page, select ‘save as,’ name it ‘fordlaborunion.json,’ and save it to the Desktop/chronam folder.
+Right click on the results page, select ‘save as,’ name it ‘chronamresults’ and save it to the Desktop/chronam folder.
 
-So, we now have everything in one json file, but we can’t really analyze it very well. We’ll want to split it out into individual files based on each page. We can do that if we [download this fairly short Python script](https://raw.githubusercontent.com/brandontlocke/chronam-api-lesson/master/chronamtext.py) (right click on an empty part of the page, click save as, and put it in your Desktop/chronam folder (it needs to be in the same folder as your json file) and make sure it’s called ‘chronamtext.py'.
+So, we now have everything in one json file, but we can’t really analyze it very well. We’ll want to split it out into individual files based on each page. We can do that if we [download this fairly short Python script](https://raw.githubusercontent.com/brandontlocke/chronam-api-lesson/master/chronamtext.py) (right click on this link, click save link as, and put it in your Desktop/chronam folder (it needs to be in the same folder as your json file) and make sure it’s called ‘chronamtext.py'.
 
 **On Windows**:
 Double-click on the ‘chronamtext.py’ icon in the Desktop/chronam folder.
@@ -87,12 +87,12 @@ This tells the computer that this is a python file.
 This signifies that we're importing the Python 'json' package to work with the json file
 
 ```
-with open('fordlaborunion.json') as json_file:  
+with open('chronamresults') as json_file:  
     data = json.load(json_file)
 ```
 This opens the file we've downloaded and assigns it to the variable `data`
 
-**Note:** This is looking for a file called `fordlaborunion.json` in the same folder where the script is located. If you're reusing this file, you may need to adjust accordingly.
+**Note:** This is looking for a file called `chronamresults` in the same folder where the script is located. If you're reusing this file, you may need to adjust accordingly.
 
 ```
     for p in data['items']:
