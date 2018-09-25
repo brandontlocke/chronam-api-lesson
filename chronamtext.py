@@ -2,7 +2,7 @@
 
 import json
 
-with open('chronamresults') as json_file:
+with open('chronamresults.json') as json_file:
     data = json.load(json_file)
     for p in data['items']:
         filename = p['date']+'_'+p['title']+'_'+"pg"+p['page']
