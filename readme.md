@@ -87,7 +87,7 @@ This tells the computer that this is a python file.
 This signifies that we're importing the Python 'json' package to work with the json file
 
 ```
-with open('chronamresults') as json_file:  
+with open('chronamresults.json') as json_file:  
     data = json.load(json_file)
 ```
 This opens the file we've downloaded and assigns it to the variable `data`
