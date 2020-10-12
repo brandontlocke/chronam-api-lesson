@@ -26,7 +26,7 @@ Depending on your browser (Firefox works best), it may or may not be easy to see
 
 It says that each page only returns 20 results...we'll need to add one more thing to the url to get all of the results in one page: `&rows=149`
 
-[https://chroniclingamerica.loc.gov/search/pages/results/?state=Michigan&lccn=2013218776&dateFilterType=yearRange&date1=1919&date2=1927&language=&ortext=&andtext=labor+union&phrasetext=&proxtext=&proxdistance=5&rows=20&searchType=advanced&format=json&rows=149](https://chroniclingamerica.loc.gov/search/pages/results/?state=Michigan&lccn=2013218776&dateFilterType=yearRange&date1=1919&date2=1927&language=&ortext=&andtext=labor+union&phrasetext=&proxtext=&proxdistance=5&rows=20&searchType=advanced&format=json&rows=149)
+[https://chroniclingamerica.loc.gov/search/pages/results/?state=Michigan&lccn=2013218776&dateFilterType=yearRange&date1=1919&date2=1927&language=&ortext=&andtext=labor+union&phrasetext=&proxtext=&proxdistance=5&searchType=advanced&format=json&rows=149](https://chroniclingamerica.loc.gov/search/pages/results/?state=Michigan&lccn=2013218776&dateFilterType=yearRange&date1=1919&date2=1927&language=&ortext=&andtext=labor+union&phrasetext=&proxtext=&proxdistance=5&searchType=advanced&format=json&rows=149)
 
 Right click on the results page, select ‘save as,’ name it ‘chronamresults’ and save it to the Desktop/chronam folder.
 
